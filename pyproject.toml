@@ -9,6 +9,7 @@ packages = [{include = "delivery_poetry"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 pytest = "^7.2.2"
+hab = {git = "https://github.com/blurstudio/hab"}
 
 
 [build-system]
